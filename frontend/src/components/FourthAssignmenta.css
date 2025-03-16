@@ -1,0 +1,63 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e83e8c 0%, #6f42c1 100%);
+    padding: 20px;
+  }
+  
+  .registration-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  h2 {
+    color: #495057;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-label {
+    font-weight: 500;
+    color: #495057;
+  }
+  
+  .btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+    transition: all 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3a54b4;
+    border-color: #3a54b4;
+    transform: translateY(-2px);
+  }
+  
+  .form-control:focus, .form-select:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+  }
+  
+  .is-invalid {
+    border-color: #dc3545;
+  }
+  
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .alert-success {
+    background-color: #28a745;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }

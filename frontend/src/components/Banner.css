@@ -1,0 +1,27 @@
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #007bff 50%, #f8f9fa 50%);
+    padding: 100px;
+    color: white;
+  }
+  
+  .banner-text {
+    width: 40%;
+  }
+  
+  .banner-text h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .banner-text p {
+    font-size: 1.2rem;
+  }
+  
+  .banner-image img {
+    width: 300px;
+    height: auto;
+  }
+  
